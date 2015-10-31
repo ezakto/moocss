@@ -45,11 +45,11 @@ main.moo
 @import 'buttons.moo';
 @import 'colors.moo';
 
-input[type="submit"] implements .button from .buttons {
+input[type="submit"] implements .button from buttons {
     display: block;
 }
 
-.warning implements .red from .colors {
+.warning implements .red from colors {
     padding: 10px;
 }
 ```
