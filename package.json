@@ -1,0 +1,33 @@
+{
+  "name": "moocss",
+  "version": "0.0.1",
+  "description": "Modular, Object-Oriented CSS",
+  "main": "lib/moocss.js",
+  "preferGlobal": true,
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "rework": "^1.0.1",
+    "rework-import": "^2.1.0",
+    "rework-inherit": "^0.2.3"
+  },
+  "bin": {
+    "moocss": "bin/moocss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezakto/moocss.git"
+  },
+  "keywords": [
+    "modular",
+    "object",
+    "oriented",
+    "css",
+    "preprocessor"
+  ],
+  "author": "Nicolás Arias",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ezakto/moocss/issues"
+  },
+  "homepage": "https://github.com/ezakto/moocss#readme"
+}

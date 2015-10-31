@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+
+var fs     = require('fs');
+var argv   = require('minimist')(process.argv.slice(2));
+var moocss = require('../lib/moocss');
+
+function cli() {
+    if (!argv._.length) return;
+    var dest = argv.o || argv._[0] + '.css';
+    fs.writeFileSync(dest, moocss(fs.readFileSync(argv._[0], { encoding: 'utf8' })));
+}
+
+cli();
