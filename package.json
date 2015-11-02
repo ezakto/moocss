@@ -1,6 +1,6 @@
 {
   "name": "moocss",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Modular, Object-Oriented CSS",
   "main": "lib/moocss.js",
   "preferGlobal": true,
